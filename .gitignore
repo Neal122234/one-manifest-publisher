@@ -1,0 +1,14 @@
+# Login credentials never go in the repo
+cookies/
+*cookie*
+*.json.bak
+.env
+# Media files
+*.mp4
+*.mov
+*.png
+*.jpg
+*.wav
+# Misc
+__pycache__/
+.DS_Store

@@ -1,0 +1,83 @@
+{
+  "_comment": "示例清单。顶层字段所有平台共用，platforms.<平台> 里的字段覆盖顶层。删掉某个平台条目就跳过它。",
+  "title": "我的视频标题",
+  "desc": "视频简介。\n第二行。",
+  "tags": [
+    "标签1",
+    "标签2",
+    "标签3"
+  ],
+  "ai_generated": true,
+  "account": "main",
+  "schedule": null,
+  "platforms": {
+    "bilibili": {
+      "files": [
+        "~/videos/part1.mp4",
+        "~/videos/part2.mp4"
+      ],
+      "cover": "~/videos/cover.png",
+      "tid": 231,
+      "tags": [
+        "标签1",
+        "标签2"
+      ],
+      "desc": "视频简介。\n第二行。",
+      "_mission_id_example": 4070254
+    },
+    "douyin": {
+      "file": "~/videos/my-video.mp4",
+      "title": "我的视频标题",
+      "cover_portrait": "~/videos/cover.png",
+      "tags": [
+        "标签1",
+        "标签2"
+      ],
+      "desc": "视频简介。\n第二行。"
+    },
+    "kuaishou": {
+      "file": "~/videos/my-video.mp4",
+      "title": "我的视频标题",
+      "cover": "~/videos/cover.png"
+    },
+    "xiaohongshu": {
+      "file": "~/videos/my-video.mp4",
+      "title": "我的视频标题",
+      "cover": "~/videos/cover.png",
+      "tags": [
+        "标签1",
+        "标签2"
+      ]
+    },
+    "tencent": {
+      "file": "~/videos/my-video.mp4",
+      "short_title": "我的视频标题",
+      "cover_portrait": "~/videos/cover.png"
+    },
+    "weibo": {
+      "file": "~/videos/my-video.mp4",
+      "cover": "~/videos/cover.png"
+    },
+    "baijiahao": {
+      "file": "~/videos/my-video.mp4",
+      "cover": "~/videos/cover.png"
+    },
+    "alipay": {
+      "file": "~/videos/my-video.mp4"
+    },
+    "hupu": {
+      "file": "~/videos/my-video.mp4"
+    },
+    "youtube": {
+      "file": "~/videos/my-video.mp4",
+      "title": "我的视频标题",
+      "desc": "视频简介。\n第二行。",
+      "tags": [
+        "标签1",
+        "标签2"
+      ],
+      "cover": "~/videos/cover.png",
+      "visibility": "public"
+    }
+  }
+}
